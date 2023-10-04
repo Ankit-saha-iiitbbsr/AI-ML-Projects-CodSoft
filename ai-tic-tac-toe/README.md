@@ -2,7 +2,7 @@
 Tic Tac Toe AI with Minimax Algorithm using vanilla Javascript
 
 ## Demo 
-[Play](https://mess-zone.github.io/ai-tic-tac-toe/index.html)
+[Play](https://ankit-saha-iiitbbsr.github.io/AI-TIC-TAC-TOE/)
 
 ## Install
 `npm install`
