@@ -29,7 +29,7 @@ export default function createLogicCommands(logic, observable) {
             });
 
 
-            // se player 1 é o computador, executar o primeiro movimento
+            
             if(player1.type === PlayerTypes.COMPUTER) {
                 const cellIndex = gameStrategyManager.getStrategy('MinimaxStrategy').findBestMove(currentState.board.cells, player1.symbol);
                 // console.log(cellIndex);
@@ -64,7 +64,7 @@ export default function createLogicCommands(logic, observable) {
                 state:JSON.parse(JSON.stringify(currentState))
             });
 
-            // se o round ainda não acabou...
+            
             if(!logic.checkEndOfRound()) {
                 // se o player atual é um computador, executa um movimento aleatorio
                 if( currentState.players[currentState.currentRound.currentPlayer].type === PlayerTypes.COMPUTER) {
@@ -98,7 +98,7 @@ export default function createLogicCommands(logic, observable) {
                 state: JSON.parse(JSON.stringify(currentState)),
             });
 
-            // se o player atual é um computador, executa um movimento aleatorio
+            
             if(currentState.players[currentState.currentRound.currentPlayer].type === PlayerTypes.COMPUTER) {
                 const cellIndex = gameStrategyManager.getStrategy('MinimaxStrategy').findBestMove(currentState.board.cells, currentState.players[currentState.currentRound.currentPlayer].symbol);
                 // console.log(cellIndex);
