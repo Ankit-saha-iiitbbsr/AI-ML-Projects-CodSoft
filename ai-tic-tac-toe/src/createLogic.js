@@ -119,7 +119,7 @@ export default function createLogic() {
         const hasEmptyCell = hasEmptyCells(state.board.cells);
 
         if(!combination && hasEmptyCell) {
-            // round não acabou
+            
             state.currentRound.statusRound = RoundStatus.PLAYING;
             return false;
         }
