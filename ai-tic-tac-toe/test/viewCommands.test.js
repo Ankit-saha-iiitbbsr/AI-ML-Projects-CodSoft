@@ -148,7 +148,7 @@ describe('ViewComands', function() {
             expect(viewsSpy.params.args.updateBoardInfo.model).to.deep.equal(state);
         });
 
-        // TODO DELAY NÃO PODE SER MAIOR QUE 5 SEGUNDOS 
+        
         it('[computer player] Should call updateBoardInfo after a delay', function(done) {
             this.timeout(6000);
             viewsSpy = createViewsSpy();
