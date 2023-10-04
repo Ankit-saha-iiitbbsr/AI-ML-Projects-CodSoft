@@ -1,1 +1,2 @@
-This chat bot learns from the user the responses and remembers the response for future use.
+- This chat bot learns from the user the responses and remembers the response for future use.
+- Run the main.py file to check out the chat-bot.
