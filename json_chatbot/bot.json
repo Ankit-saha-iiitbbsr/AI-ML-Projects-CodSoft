@@ -1,0 +1,87 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "great"],
+    "bot_response": "Okay! Please type something so we can chat.",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["thank", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["thank","you"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["thanks", "a","lot","mate"],
+    "bot_response": "The pleasure is all mine! Feel free to ask anything else.",
+    "required_words": ["thanks"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["want", "some", "advice", "or", "suggestions"],
+    "bot_response": "If I were you, I would go to the internet and type exactly what you wrote there!",
+    "required_words": ["advice"]
+  },
+  
+  {
+    "response_type": "question",
+    "user_input": ["what", "do", "you", "like", "to", "eat"],
+    "bot_response": "I don't like eating anything because I'm a bot obviously!",
+    "required_words": ["you", "eat"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Who", "are", "you"],
+    "bot_response": "I'm a bot! ro-bot.",
+    "required_words": ["are", "you"]
+  },
+  {
+  "response_type": "question",
+    "user_input": ["Tell", "me", "something", "about", "you"],
+    "bot_response": "I'm a bot! Ro-Bot. I'm programmed to chat with you and provide meaningful response.",
+    "required_words": ["about", "you"]
+  },
+  {
+    "response_type": "command",
+    "user_input": ["make", "me", "coffee"],
+    "bot_response": "Sure, I'll make it right away.",
+    "required_words": ["make", "coffee", "me"]
+  }
+]
