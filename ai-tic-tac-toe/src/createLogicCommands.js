@@ -66,7 +66,7 @@ export default function createLogicCommands(logic, observable) {
 
             
             if(!logic.checkEndOfRound()) {
-                // se o player atual é um computador, executa um movimento aleatorio
+                
                 if( currentState.players[currentState.currentRound.currentPlayer].type === PlayerTypes.COMPUTER) {
                     const cellIndex = gameStrategyManager.getStrategy('MinimaxStrategy').findBestMove(currentState.board.cells, currentState.players[currentState.currentRound.currentPlayer].symbol);
                     // console.log(cellIndex);
