@@ -25,7 +25,7 @@ export default function createViewCommands(views) {
         const state = JSON.parse(JSON.stringify({...command.state}))
         // console.log('[UI] UPDATE BOARD', state);
 
-        // Se o player que acabou de mover é um COMPUTER, dá um delay na exibição
+        
         const lastPlayer = (state.currentRound.currentPlayer + 1) % state.players.length;
         if(state.players[lastPlayer].type == PlayerTypes.COMPUTER) {
             const delay = views.getUserPreferences().computerDelay;
