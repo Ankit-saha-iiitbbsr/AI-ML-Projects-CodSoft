@@ -124,11 +124,11 @@ export default function createLogic() {
             return false;
         }
 
-        // fim de round
+        
         state.currentRound.statusRound = combination ? RoundStatus.WIN : RoundStatus.DRAW;
         // console.log(`[game] Status round: ${state.currentRound.statusRound}`);
 
-        //contabiliza scores
+        
         const winner = combination ? state.players[state.currentRound.currentPlayer].symbol : 'Draw';
         state.scores.push({ 
             winner, 
