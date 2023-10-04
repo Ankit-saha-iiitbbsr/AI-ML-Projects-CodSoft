@@ -1,7 +1,7 @@
 [
   {
     "response_type": "greeting",
-    "user_input": ["hello", "hi", "hey"],
+    "user_input": ["hello", "hi", "hii","hey"],
     "bot_response": "Hey there!",
     "required_words": []
   },
