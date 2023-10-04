@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>AI TIC TAC TOE</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='public/style.css'>
+    <script src='public/index.js' type="module" defer></script>
+</head>
+<body class="">
+    <template data-template-start-screen>
+        <section id="start-screen" class="screen screen--start">
+            <form data-start-screen__form-setup class="container">
+                <input type="hidden" data-start-screen__preferences-computer-delay value="3000">
+                <h1>tic tac toe</h1>
+
+                <select name="data-start-screen__game-mode" data-start-screen__game-mode>
+                    <option value="HUMAN,HUMAN">HUMAN vs HUMAN</option>
+                    <option value="HUMAN,COMPUTER">HUMAN vs COMPUTER</option>
+                    <option value="COMPUTER,HUMAN">COMPUTER vs HUMAN</option>
+                </select>
+        
+                <div data-start-screen__player1>
+                    <h2>player 1 (X)</h2>
+                    <label>name:
+                        <input data-start-screen__player1-name type="text" placeholder="player 1" />
+                    </label>
+                </div>
+                <div data-start-screen__player2>
+                    <h2>player 2 (O)</h2>
+                    <label>name:
+                        <input data-start-screen__player2-name type="text" placeholder="player 2" />
+                    </label>
+                </div>
+        
+                <button type="submit">Start</button>
+            </form>
+        </section>
+    </template>
+    <template data-template-round-screen>
+        <section id="round-screen" class="screen screen--round">
+            <div class="container">
+                <h1 data-round-screen__text>Round 0/0</h1>
+            </div>
+        </section>
+    </template>
+    <template data-template-board-screen>
+        <section id="board-screen" class="screen screen--board">
+            <div class="container">
+                <div data-board-screen__hint class="hint">
+                </div>
+                <div data-board-screen__board-container class="board-container">
+                    <div data-board-screen__board class="board">
+                        <div data-board-screen__cell="0" class="board__cell"></div>
+                        <div data-board-screen__cell="1" class="board__cell"></div>
+                        <div data-board-screen__cell="2" class="board__cell"></div>
+                        <div data-board-screen__cell="3" class="board__cell"></div>
+                        <div data-board-screen__cell="4" class="board__cell"></div>
+                        <div data-board-screen__cell="5" class="board__cell"></div>
+                        <div data-board-screen__cell="6" class="board__cell"></div>
+                        <div data-board-screen__cell="7" class="board__cell"></div>
+                        <div data-board-screen__cell="8" class="board__cell"></div>
+                    </div>
+                </div>
+                <div data-board-screen__score class="score">
+                </div>
+            </div>
+        </section>
+    </template>
+    <template data-template-end-round-screen>
+        <section id="end-round-screen" class="screen screen--end-round">
+            <div class="container">
+                <div class="flex-center">
+                    <h1 data-end-round-screen__text class="winner-message">player A won!</h1>
+                    <svg class="loading-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#9911bb"/>
+                        <path class="path" fill="transparent" stroke="black" stroke-width="50" fill-rule="evenodd" clip-rule="evenodd" d="M25 49C38.2548 49 49 38.2548 49 25C49 11.7452 38.2548 1 25 1C11.7452 1 1 11.7452 1 25C1 38.2548 11.7452 49 25 49ZM25 50C38.8071 50 50 38.8071 50 25C50 11.1929 38.8071 0 25 0C11.1929 0 0 11.1929 0 25C0 38.8071 11.1929 50 25 50Z" />
+                    </svg>
+                    <p>Next Round...</p>  
+                </div> 
+            </div>
+        </section>
+    </template>
+    <template data-template-end-game-screen>
+        <section id="end-game-screen" class="screen screen--end-game">
+            <div class="container">
+                <h1>End of game!</h1>
+                <div data-end-game-screen__score class="score"></div>
+                <button data-end-game-screen__restart class="restart">Restart</button>
+            </div>
+        </section>
+    </template>
+</body>
+</html>
