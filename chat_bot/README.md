@@ -1,0 +1,1 @@
+This chat bot learns from the user the responses and remembers the response for future use.
