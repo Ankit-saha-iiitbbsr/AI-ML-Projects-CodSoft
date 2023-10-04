@@ -15,7 +15,7 @@ describe('MinimaxStrategy', () => {
             Symbols.X, Symbols.O, Symbols.O, 
             Symbols.X, Symbols.X, Symbols.X, 
         ];
-        // era a vez de X e ele ganhou, minimax deve retornar score 10
+        
         const bestMove = sut.findBestMove(currentBoard, Symbols.X);
         expect(bestMove).to.be.equal(undefined);
     })
@@ -27,7 +27,7 @@ describe('MinimaxStrategy', () => {
             Symbols.X, Symbols.O, Symbols.O, 
             Symbols.X, Symbols.X, Symbols.X, 
         ];
-        // era a vez de O e ele perdeu, minimax deve retornar score 10
+        
         const bestMove = sut.findBestMove(currentBoard, Symbols.O);
         expect(bestMove).to.be.equal(undefined);
     })
@@ -39,7 +39,7 @@ describe('MinimaxStrategy', () => {
             Symbols.O, Symbols.O, Symbols.X, 
             Symbols.X, Symbols.O, Symbols.X, 
         ];
-        // era a vez de X e ele empatou, minimax deve retornar score 0
+        
         const bestMove = sut.findBestMove(currentBoard, Symbols.X);
         expect(bestMove).to.be.equal(undefined);
     })
