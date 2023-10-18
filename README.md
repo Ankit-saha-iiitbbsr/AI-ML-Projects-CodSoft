@@ -7,7 +7,7 @@ CODSOFT Project Repository for Tech Internship (Artificial Intelligence Intern)
 
 
 ## 2. [CHAT-BOT RULES BASED RESPONSES](https://github.com/Ankit-saha-iiitbbsr/Codsoft_taskno1_CHATBOT-WITH-RULE-BASED-RESPONSES)
-## 3. FACE RECOGNITION AI USING OPENCV
+## 3. [FACE RECOGNITION AI USING OPENCV](https://github.com/Ankit-saha-iiitbbsr/Codsoft_taskno5_FACE-DETECTION-RECOGNITION)
 ## 4. [MOVIE RECOMMENDER SYSTEM](https://github.com/Ankit-saha-iiitbbsr/Codsoft_taskno4_MOVIE-RECOMMENDER-SYSTEM)
  
 # Note
