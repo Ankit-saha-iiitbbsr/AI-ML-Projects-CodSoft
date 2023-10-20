@@ -5,6 +5,8 @@ CODSOFT Project Repository for Tech Internship (Artificial Intelligence Intern)
   - a) https://ankit-saha-iiitbbsr.github.io/tic-tac-toe-minimax/
   - b) https://ankit-saha-iiitbbsr.github.io/AI-TIC-TAC-TOE/
 
+**VIDEO DEMO:** https://www.linkedin.com/feed/update/urn:li:activity:7120783336209272832/?originTrackingId=p8Hl0ROpQMGdJTcYc7T5cQ%3D%3D
+
 
 ## 2. [CHAT-BOT RULES BASED RESPONSES](https://github.com/Ankit-saha-iiitbbsr/Codsoft_taskno1_CHATBOT-WITH-RULE-BASED-RESPONSES)
 ## 3. [FACE RECOGNITION AI USING OPENCV](https://github.com/Ankit-saha-iiitbbsr/Codsoft_taskno5_FACE-DETECTION-RECOGNITION)
