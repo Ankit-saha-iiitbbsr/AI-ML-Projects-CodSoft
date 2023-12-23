@@ -12,6 +12,7 @@ CODSOFT Project Repository for Tech Internship (Artificial Intelligence Intern)
 ## 3. [FACE RECOGNITION AI USING OPENCV](https://github.com/Ankit-saha-iiitbbsr/Codsoft_taskno5_FACE-DETECTION-RECOGNITION)
 ## 4. [MOVIE RECOMMENDER SYSTEM](https://github.com/Ankit-saha-iiitbbsr/Codsoft_taskno4_MOVIE-RECOMMENDER-SYSTEM)
 ## 5. [TRAFFIC SIGN RECOGNITION](https://github.com/Ankit-saha-iiitbbsr/traffic-sign-recognition)
+## 6. [FACIAL RECOGNITION BASED ATTENDANCE SYSTEM](https://github.com/Ankit-saha-iiitbbsr/face-recognition-based-attendance-management-system)
  
 # Note
 For the "FACE RECOGNITION AI" project download the zip folder from the repository.
