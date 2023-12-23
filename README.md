@@ -15,6 +15,7 @@ CODSOFT Project Repository for Tech Internship (Artificial Intelligence Intern)
 ## 6. [FACIAL RECOGNITION BASED ATTENDANCE SYSTEM](https://github.com/Ankit-saha-iiitbbsr/face-recognition-based-attendance-management-system)
 ## 7. [GOOGLE CHROME DINO GAME PLAY AUTOMATION](https://github.com/Ankit-saha-iiitbbsr/Chrome-Dino-Game-Play-Automation)
 ## 8. [FACIAL EMOTION RECOGNIZER](https://github.com/Ankit-saha-iiitbbsr/Facial-Emotion-recognition)
+## 9. [CUSTOM HAND GESTURE RECOGNITION](https://github.com/Ankit-saha-iiitbbsr/Custom-Hand-gesture-recognition)
  
 # Note
 For the "FACE RECOGNITION AI" project download the zip folder from the repository.
