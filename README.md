@@ -16,6 +16,7 @@ CODSOFT Project Repository for Tech Internship (Artificial Intelligence Intern)
 ## 7. [GOOGLE CHROME DINO GAME PLAY AUTOMATION](https://github.com/Ankit-saha-iiitbbsr/Chrome-Dino-Game-Play-Automation)
 ## 8. [FACIAL EMOTION RECOGNIZER](https://github.com/Ankit-saha-iiitbbsr/Facial-Emotion-recognition)
 ## 9. [CUSTOM HAND GESTURE RECOGNITION](https://github.com/Ankit-saha-iiitbbsr/Custom-Hand-gesture-recognition)
+## 10. [BRAIN TUMOR CLASSIFICATION](https://github.com/Ankit-saha-iiitbbsr/Brain-tumor-classification)
  
 # Note
 For the "FACE RECOGNITION AI" project download the zip folder from the repository.
