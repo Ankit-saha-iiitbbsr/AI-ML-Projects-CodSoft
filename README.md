@@ -1,6 +1,6 @@
 # CODSOFT
 CODSOFT Project Repository for Tech Internship (Artificial Intelligence Intern)
-# Project List and repo:
+# Project List and repo (click on project name to open repository):
 ## 1. [AI TIC-TAC-TOE](https://github.com/Ankit-saha-iiitbbsr/Codsoft_taskno2_TIC-TAC-TOE-AI)
  ### Demo:-
   - a) https://ankit-saha-iiitbbsr.github.io/tic-tac-toe-minimax/
