@@ -18,7 +18,7 @@ CODSOFT Project Repository for Tech Internship (Artificial Intelligence Intern)
 ## 8. [FACIAL EMOTION RECOGNIZER](https://github.com/Ankit-saha-iiitbbsr/Facial-Emotion-recognition)
 ## 9. [CUSTOM HAND GESTURE RECOGNITION](https://github.com/Ankit-saha-iiitbbsr/Custom-Hand-gesture-recognition)
 ## 10. [BRAIN TUMOR CLASSIFICATION & DETECTION](https://github.com/Ankit-saha-iiitbbsr/Brain-tumor-classification)
-## 11. [PLANT LEAF DISEASE CLASSIFICATION AND DETECTION](https://github.com/Ankit-saha-iiitbbsr/Plant-leaf-disease-classification) 
+## 11. [PLANT LEAF DISEASE CLASSIFICATION & DETECTION](https://github.com/Ankit-saha-iiitbbsr/Plant-leaf-disease-classification) 
  
 # Note
 For the "FACE RECOGNITION AI" project download the zip folder from the repository.
